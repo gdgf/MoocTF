@@ -45,6 +45,7 @@ def backward(mnist):
 
     saver = tf.train.Saver() 
 
+
     with tf.Session() as sess: 
         init_op = tf.global_variables_initializer() 
         sess.run(init_op) 
